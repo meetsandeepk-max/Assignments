@@ -1,0 +1,6 @@
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+npm install -g typescript
+
+npm install -D typescript ts-node
+
+npx tsc --init
