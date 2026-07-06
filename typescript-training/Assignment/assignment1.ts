@@ -8,7 +8,7 @@ let order : boolean = true;
 console.log(`Whether a customer has placed an order: ${order}`);
 
 //Person's phone number: "123-456-7890"
-let phone:number = 123-456-7890;
+let phone:string = "123-456-7890";
 console.log(`MY phone numberis ${phone}`);
 
 //Amount of money in a customer's bank account: 1000.50
@@ -20,9 +20,8 @@ let email:string = "john.doe@example.com";
 console.log(`"Person's email address: ${email}`);
 
 //Coordinates of a location (latitude, longitude): 37.7749, -122.4194
-let latitude : number = 37.7749;
-let longitude:number = -122.4194;
-console.log(`Coordinates of a location (latitude, longitude):${latitude}, ${longitude}`);
+let latitude : number [] = [37.7749, -122.4194];
+console.log (`Coordinates of a location (latitude: ${latitude[0]}, longitude: ${latitude[1]})`);
 
 //Person's marital status: true or false
 let martialStatus : boolean = true;

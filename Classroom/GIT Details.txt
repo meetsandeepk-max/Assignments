@@ -1,3 +1,13 @@
 meetsandeepk@gmail.com
 
 git remote add origin https://github.com/meetsandeepk-max/Assignments.git
+
+*******************************************************
+
+git init
+git remote add origin https://github.com/meetsandeepk-max/Assignments.git
+git config --global user.name "Sandeep Rajan"
+git config --global user.email "meetsandeepk@gmail.com"
+git add . //uploading all the files to the staging area of GIT. 
+git commit -m "Assignment 1" 
+git push origin master
