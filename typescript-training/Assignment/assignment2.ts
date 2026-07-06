@@ -2,24 +2,27 @@
 or not */
 
 let customerName:string = "John Doe";
-let creditScore:number = 720;
-let income:number = 55000.0;
+let creditScore:number = 700;
+let income:number = 50000.0;
 let isEmployed:boolean = true;
 const debtToIncomeRatio:number = 35.0;
 
 if (creditScore >750){
     console.log("Your loan is approved");
-}else if (creditScore <650){
-    console.log("Your loan is rejected");
-}else if (creditScore >650 && creditScore <750){
-    if(income >= 50000){
-        if (isEmployed = true){
+}else if (creditScore >= 650){
+        if(income >= 50000){
+        if (isEmployed){
             if(debtToIncomeRatio < 40){
-                console.log("Loan is approved");
+                console.log("Loan is Approved");
+            }else {
+                console.log("Loan is Denied of Debt Ratio");
             }
-        }
+        } else {
+                console.log("Loan is Denied of Employment");
+            }
     } else {
-        console.log("loan is denied");
-    }
-
-}
+                console.log("Loan is Denied of Income");
+            }
+} else {
+        console.log("loan is Denied of CreditScore");
+    } 
